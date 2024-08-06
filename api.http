@@ -1,7 +1,7 @@
 @HOST = localhost:3000
 @email = test@gmail.com
 
-GET http://{{HOST}}
+http://{{HOST}}
 
 ###
 
@@ -12,3 +12,7 @@ content-type: application/json
     "email": "{{email}}",
     "password": "123456"
 }
+
+###
+
+http://{{HOST}}/analytics
